@@ -100,7 +100,6 @@ end
     Lₖx₀DₓB(Int,Vector,Float64,Vector,Vector) # with initial guess + filter + bound
 end
 
-BLAS.set_num_threads(1)
 include("solvers.jl")
 include("validators.jl")
 include("genericfunctions.jl")
